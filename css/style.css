@@ -22,16 +22,13 @@
 }
 
 .top ul {
+    display: flex;
     list-style: none;
 }
 
 .top a {
     text-decoration: none;
     font-family: Ubuntu;
-}
-
-.top a:hover h1 {
-    color: #215877;
 }
 
 .top li a {
@@ -46,9 +43,104 @@
     color: #215877;
 }
 
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title-slogan h2 {
+    font-family: Ubuntu;
+    font-size: 54px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: #397BB5;
+}
+
+.title-slogan span {
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: 700;
+    color: #00A3FF;
+    width: 295px;
+}
+
+#home .title-slogan {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-us h2 {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-weight: 700;
+    color: #397BB5;
+}
+
+#about-us .content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#about-us .content p {
+    text-align: justify;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 700;
+    color: #4E4E4E;
+    width: 400px;
+}
+
+#ongs {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+#ongs h2 {
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 48px;
+    font-weight: 700;
+    color: #397BB5;
+}
+
+#ongs .content {
+    display: flex;
+    justify-content: center;
+}
+
+#ongs .content .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-right: 32px;
+    border: 1px solid rgba(0, 39, 78, 0.4);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#ongs .content .card:hover {
+    box-shadow: 2px 2px 4px rgba(0, 39, 78, 0.5);
+}
+
+#ongs .content .card img {
+    width: 100px;
+    height: 100px
+}
+
 footer {
     padding: 15px 23px;
-    background: #111;
+    background: #63A1D8;
     font-family: Ubuntu;
     text-align: center;
     color: #FFF;
@@ -58,8 +150,44 @@ footer a {
     text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .top ul {
-        display: flex;
+        display: block;
+    }
+    
+    #home img {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title-slogan h2 {
+        font-size: 48px;
+    }
+    
+    .title-slogan span {
+        width: 210px;
+        font-size: 24px;
+    }
+
+    #home img {
+        width: 200;
+        height: 250px;
+    }
+}
+
+@media (max-width: 540px) {
+    .top .logo {
+        flex-direction: column;
+    }
+
+    .title-slogan h2 {
+        font-size: 36px;
+    }
+    
+    .title-slogan span {
+        width: 125px;
+        font-size: 18px;
     }
 }
