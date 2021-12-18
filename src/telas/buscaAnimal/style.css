@@ -1,0 +1,85 @@
+main h2 {
+    font-family: Ubuntu;
+    font-size: 36px;
+    color: #397BB5;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    font-family: Ubuntu;
+    width: 80%;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid #717273;
+    padding: 0 10px;
+}
+
+#items {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    font-family: Ubuntu;
+    font-size: 16px;
+    color: #2E7676;
+    font-weight: bold;
+}
+
+#items .card {
+    width: 269px;
+    height: 368px;
+    margin-right: 32px;
+    background-color: #F3F3F3;
+    border: 1px solid rgba(0, 39, 78, 0.4);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#items .card img {
+    width: 269px;
+    height: 152px;
+    border-radius: 10px 10px 0 0;
+}
+
+#items .card .info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#items .card .descricao {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px 20px;
+    text-align: justify;
+    height: 17.9%;
+}
+
+#items .card .adotar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+#items .card .btnAdotar {
+    width: 40%;
+    padding: 10px 0;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #64BEAD;
+    border-radius: 5px;
+}
+
+#items .card .btnAdotar:hover {
+    cursor: pointer;
+}

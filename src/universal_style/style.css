@@ -1,3 +1,4 @@
+/* Navbar */
 .top {
     background-color: #63A1D8;
     display: flex;
@@ -43,53 +44,7 @@
     color: #215877;
 }
 
-main h2 {
-    font-family: Ubuntu;
-    font-size: 36px;
-    color: #397BB5;
-    font-weight: bold;
-    text-align: center;
-}
-
-.search {
-    display: flex;
-    justify-content: center;
-}
-
-.search input {
-    font-family: Ubuntu;
-    width: 80%;
-    height: 30px;
-    border-radius: 7px;
-    border: 1px solid #717273;
-}
-
-.items {
-    margin: 50px 0;
-    display: flex;
-    justify-content: center;
-    font-family: Ubuntu;
-    font-size: 16px;
-    color: #2E7676;
-    font-weight: bold;
-}
-
-.items .card {
-    width: 269px;
-    height: 368px;
-    margin-right: 32px;
-    background-color: #F3F3F3;
-    border: 1px solid rgba(0, 39, 78, 0.4);
-    box-sizing: border-box;
-    border-radius: 10px;
-}
-
-.items .card img {
-    width: 269px;
-    height: 152px;
-    border-radius: 10px 10px 0 0;
-}
-
+/* Footer */
 footer {
     padding: 15px 23px;
     background: #63A1D8;
@@ -106,10 +61,40 @@ footer a {
     .top ul {
         display: block;
     }
+    
+    #home img {
+        width: 300px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title-slogan h2 {
+        font-size: 48px;
+    }
+    
+    .title-slogan span {
+        width: 210px;
+        font-size: 24px;
+    }
+
+    #home img {
+        width: 200;
+        height: 250px;
+    }
 }
 
 @media (max-width: 540px) {
     .top .logo {
         flex-direction: column;
+    }
+
+    .title-slogan h2 {
+        font-size: 36px;
+    }
+    
+    .title-slogan span {
+        width: 125px;
+        font-size: 18px;
     }
 }

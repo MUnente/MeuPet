@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/normalize.css">
-        <link rel="stylesheet" href="../../css/buscaAnimal/style.css">
+        <link rel="stylesheet" href="../../universal_style/normalize.css">
+        <link rel="stylesheet" href="../../universal_style/style.css">
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../../images/favicon.ico" type="image/x-icon">
@@ -13,12 +15,12 @@
     <body>
         <header class="top">
             <a class="logo" href="../home/index.html">
-                <img src="../../images/dog.svg" alt="Dog icon">
+                <img src="../../../public/images/dog.svg" alt="Dog icon">
                 <h1>MeuPet</h1>
             </a>
             <nav class="menu">
                 <ul>
-                    <li><a href="../home/index.html#home">Home</a></li>
+                    <li><a href="../home/index.html">Home</a></li>
                     <li><a href="../home/index.html#about-us">Sobre Nós</a></li>
                     <li><a href="../home/index.html#ongs">ONGs</a></li>
                     <li><a href="../buscaAnimal/index.html">Buscar Animal</a></li>
@@ -32,39 +34,64 @@
             <div class="search">
                 <input type="text" placeholder="Ex: Cachorro caramelo">
             </div>
-            <div class="items">
+            <div id="items">
+                <!--
                 <div class="card">
-                    <img src="../../images/animal1.png" alt="Cachorro caramelo">
+                    <img src="../../../public/images/animal1.png" alt="Cachorro caramelo">
                     <div class="info">
                         <span class="nome">Bob</span>
                         <span class="idade">2 anos</span>
                     </div>
-                    <span class="descricao">Animal muito dócil, brincalhão e fofo.</span>
+                    <div class="descricao">
+                        <span class="txtDescricao">Animal muito dócil, brincalhão e fofo.</span>
+                    </div>
+                    <div class="adotar">
+                        <div class="btnAdotar">Adotar</div>
+                    </div>
                 </div>
+                
                 <div class="card">
-                    <img src="../../images/animal2.png" alt="Cachorro caramelo">
+                    <img src="../../../public/images/animal2.png" alt="Cachorro caramelo">
                     <div class="info">
                         <span class="nome">Carla</span>
                         <span class="idade">1 ano</span>
                     </div>
-                    <span class="descricao">Carla é uma cadelinha que ama brincar e comer alface.</span>
+                    <div class="descricao">
+                        <span class="txtDescricao">Carla é uma cadelinha que ama brincar e comer alface.</span>
+                    </div>
+                    <div class="adotar">
+                        <div class="btnAdotar">Adotar</div>
+                    </div>
                 </div>
+
                 <div class="card">
-                    <img src="../../images/animal3.jpg" alt="Cachorro vira-lata">
+                    <img src="../../../public/images/animal3.jpg" alt="Cachorro vira-lata">
                     <div class="info">
                         <span class="nome">Charlote</span>
                         <span class="idade">2 anos</span>
                     </div>
-                    <span class="descricao">Adora tomar banho, brincar, ser acariciada, correr atrás da bolinha, mas morre de medo de gatos.</span>
+                    <div class="descricao">
+                        <span class="txtDescricao">Adora tomar banho, brincar, ser acariciada, correr atrás da bolinha, mas morre de medo de gatos.</span>
+                    </div>
+                    <div class="adotar">
+                        <div class="btnAdotar">Adotar</div>
+                    </div>
                 </div>
+                
                 <div class="card">
-                    <img src="../../images/animal4.jpg" alt="Cachorro vira-lata">
+                    <img src="../../../public/images/animal4.jpg" alt="Cachorro vira-lata">
                     <div class="info">
                         <span class="nome">Kiko</span>
                         <span class="idade">4 anos</span>
                     </div>
-                    <span class="descricao">O grande Kiko ama espaço, gosta de correr livremente como se não houvesse amanhã, mas é um pouco atentado e....</span>
+                    <div class="descricao">
+                        <span class="txtDescricao">O grande Kiko ama espaço, gosta de correr livremente como se não houvesse amanhã, mas é um pouco atentado e [fazendo um teste com o text overflow teste teste teste só para preencher linha]</span>
+                    </div>
+                    <div class="adotar">
+                        <div class="btnAdotar">Adotar</div>
+                    </div>
                 </div>
+                -->
             </div>
         </main>
 

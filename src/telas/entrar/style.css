@@ -1,0 +1,60 @@
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section h1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    color: #397BB5;
+}
+
+.verticalLine {
+    margin: 30px 0;
+    border-left: 1px solid #717273;
+    height: 200px;
+}
+
+.camposInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inputForm {
+    width: 250px;
+    height: 35px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: Ubuntu;
+}
+
+.inputForm + .inputForm {
+    margin-top: 15px;
+}
+
+.campoBtn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btnForm {
+    font-family: Ubuntu;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #64BEAD;
+    width: 40%;
+    padding: 10px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btnForm:hover {
+    cursor: pointer;
+}

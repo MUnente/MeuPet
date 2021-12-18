@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Bob",
+        "age": "2 anos",
+        "description": "Animal muito dócil, brincalhão e fofo.",
+        "img": "https://www.rbsdirect.com.br/imagesrc/25743537.jpg?w=700"
+    },
+    {
+        "id": 2,
+        "name": "Carla",
+        "age": "1 anos",
+        "description": "Carla é uma cadelinha que ama brincar e comer alface.",
+        "img": "https://www.hypeness.com.br/1/2019/09/Vira-lata_Caramelo_1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Charlote",
+        "age": "2 anos",
+        "description": "Adora tomar banho, brincar, ser acariciada, correr atrás da bolinha, mas morre de medo de gatos.",
+        "img": "https://uploads.metropoles.com/wp-content/uploads/2019/01/08152318/vira-lata.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Kiko",
+        "age": "4 anos",
+        "description": "O grande Kiko ama espaço, gosta de correr livremente como se não houvesse amanhã, mas é um pouco atentado e gosta de latir para chamar atenção. Entretanto, é muito amoroso.",
+        "img": "https://i.pinimg.com/originals/c2/a1/c9/c2a1c97a66900429b96ef6f5c8314bc3.jpg"
+    }
+]

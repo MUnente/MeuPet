@@ -1,0 +1,75 @@
+main {
+    font-family: Ubuntu;
+    font-size: 18px;
+    margin: 20px 40px;
+}
+
+main h1 {
+    color: #397BB5;
+}
+
+.line {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.campoForm {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campoForm input {
+    height: 30px;
+    width: auto;
+    padding: 0 5px;
+}
+
+.line > .campoForm + .campoForm {
+    margin-left: 30px;
+}
+
+.campoForm > input {
+    margin-top: 5px;
+}
+
+#campoNomeOng {
+    width: 100%;
+}
+
+#campoCPF {
+    width: 50%;
+}
+
+#campoCPF {
+    width: 50%;
+}
+
+#campoEndereco {
+    width: 100%;
+}
+
+#campoEmail, #campoSenha, #campoConfirmeSenha {
+    width: 100%;    
+}
+
+.campoBtn {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnForm {
+    text-align: center;
+    color: white;
+    background-color: #64BEAD;
+    width: 10%;
+    padding: 10px 0;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btnForm:hover {
+    cursor: pointer;
+}
